@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class departament {
+public class Departament {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
